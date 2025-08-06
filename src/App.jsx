@@ -1,5 +1,6 @@
 import Header from "./components/Header"
 import Content from "./components/Content";
+import Footer from "./components/Footer";
 import quran from '../node_modules/quran-json/dist/quran_en.json';
 import { useState, useEffect, useRef } from "react";
 
@@ -54,6 +55,7 @@ function App() {
     <div>
     <Header />
     <Content ayah={ayah} ayahDescription={ayahDescription} instruction={instruction}/>
+    <Footer />
     </div>
   );
 }
