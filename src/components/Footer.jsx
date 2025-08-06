@@ -4,7 +4,7 @@ import ContentCopyIcon from '@mui/icons-material/ContentCopy';
 
 const Footer = () => {
     return (
-        <div  onClick={(e) => e.stopPropagation()} className='h-50 mt-80 bg-[#1cb356] py-15 px-12'>
+        <div  onClick={(e) => e.stopPropagation()} className='h-50 mt-80 bg-[#1cb356] py-15 px-8'>
             <p className='text-white mb-5'>My Email: <span className='underline mr-3'>muhammadabubakaramjad786@gmail.com</span>
              <ContentCopyIcon
     className="cursor-pointer hover:text-blue-400 transition"
