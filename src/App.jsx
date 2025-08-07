@@ -52,9 +52,11 @@ function App() {
 
   
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
+      <main className="flex-grow">
     <Header />
     <Content ayah={ayah} ayahDescription={ayahDescription} instruction={instruction}/>
+    </main>
     <Footer />
     </div>
   );
